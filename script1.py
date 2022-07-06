@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask import jsonify
+
 
 app = Flask(__name__)
 
@@ -23,9 +23,6 @@ def resume():
 def contact():
     return render_template("contact.html")
 
-@app.errorhandler(404) 
-def invalid_route(e): 
-    return jsonify({'errorCode' : 404, 'message' : 'Route not found'})
 
 if __name__ == "__main__":
     app.run(debug=True)
