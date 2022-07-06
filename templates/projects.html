@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yohannes Kelem Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+     <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+ <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">About</span>
+                            <span class="icon-bar">Resume</span>
+                            <span class="icon-bar">contact</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">About</a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume</a></li>
+                            <li><a href="{{ url_for('contact')  }}">Contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Yohannes Kelem Portfolio</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <body>
+
+        <div id="job" class="row mobmid">
+                <div class="col-sm-11">
+                    <h3>Projects</h3>
+
+                    <div class="award">
+                        <p class="sub"><a href="">Internship Management System For Eit-m Mekelle University</a></p>
+                        <ul>
+                            <li>Developed using PHP, JavaScript, CSS, HTML, SQLi</li>
+                            <li>purpose of the project is developing Internship Management System</li>
+                            <li>which supports the building and provision of integrated information on intern students, and company profile</li>
+                            <li>provides online system of evaluation and submission of internship result in a more secured way.</li>
+                            <li>Allow the company to fill daily attendance of the intern and their feedback online</li>
+                            <li>The system will collect report (internship result) from companies without any interference of the intern student.</li>
+                        </ul>
+                    </div>
+                    <!--1st award end-->
+
+                    <div class="award">
+                        <p class="sub"><a href="">Elimination Of Redundant Data In Cloud With Secured Access Control</a></p>
+                        <ul>
+                            <li>Developed using JSP, Servlets, Javascript, Css</li>
+                            <li>The overall aim of the project is developing a system that avoid or eliminate redundant or multiple copies of same encrypted data.</li>
+                            <li>aim to solve the issues in deduplication that are being faced by data holders by providing privacy for accessing the file.</li>
+                            <li>I combine cloud data de-duplication with data access control</li>
+                            <li>I used Symmetric-key algorithms are those which use the same cryptographic keys for both encryption of plaintext and decryption of cipher text.</li>
+                            <li>This method also reduces the amount of data to be transferred over a network as the number of bytes are reduced by avoiding duplication.</li>
+                        </ul>
+                    </div>
+
+                    <h3>Accomplishment</h3>
+
+                    <div class="award">
+                        <h4>ICCR African Scheme Scholarship Winner </h4>
+                        <p class="sub"><a href="">Jawahrlal Nehru Technological University Hyderabad.</a></p>
+                        <p>Completed Master of Technology in Hyderabad India .</p>
+                    </div>
+                </div><!--awards end-->
+                    
+                </div><!--Job experiences end-->
+            </div><!--Job experiences end-->
+        </div><!--left end-->
+
+    </body>    

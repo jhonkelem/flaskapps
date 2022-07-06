@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yohannes Kelem Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+     <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">About</span>
+                            <span class="icon-bar">Resume</span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">About</a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume</a></li>
+                            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Yohannes Kelem Portfolio</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <body>
+        <div class="container">
+            <!-- ===========================
+            HEADER
+            ============================ -->
+            <div id="header" class="row">
+                <div class="col-sm-2">
+                    <img class="propic" src="static/images/photo.jpg" alt="">
+                </div>
+                <!-- photo end-->
+    
+                <div class="col-sm-10">
+                    <div class="cv-title">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <h1>Yohannes Kelem</h1>
+                            </div>
+                            <div class="col-sm-5 text-right dl-share">
+                                <!-- AddToAny BEGIN -->
+                                <a class="a2a_dd btn btn-default" href=""><span class="fa fa-share "></span> Share</a>
+                                <script type="text/javascript">
+                                    var a2a_config = a2a_config || {};
+                                    a2a_config.linkname = "";
+                                    a2a_config.num_services = 6;
+                                    a2a_config.prioritize = ["facebook", "twitter", "google_plus", "linkedin", "pinterest", "email"];
+                                </script>
+                                <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+                                <!-- AddToAny END -->
+    
+                                <a class="btn btn-success" href=""><span class="fa fa-download"></span> Download</a>
+                            </div>
+                        </div>
+                        <h2>Junior Cyber Security professional</h2>
+                    </div><!-- Title end-->
+    
+                    <!-- ===========================
+                    SOCIAL & CONTACT
+                    ============================ -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li><a href="{{ url_for('hello') }}"><span class="social fa fa-home"></span>yksoft.tech</a>
+                                </li>
+                                <li><a href=""><span class="social fa fa-skype"></span>+31 0684283823</a>
+                                </li>
+                                <li><a href="mailto:yohanneskelem@gmail.com"><span class="social fa fa-envelope-o"></span>yohanneskelem@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div><!-- social 1st col end-->
+    
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li><a href="https://twitter.com/yohanneskelem"><span class="social fa fa-twitter"></span>Twitter</a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/yohannes-kelem"><span class="social fa fa-linkedin"></span>Linkedin</a>
+                                </li>
+                                <li><a href="https://github.com/jhonkelem"><span class="social fa fa-github"></span>GitHub</a>
+                                </li>
+                            </ul>
+                        </div><!-- social 2nd col end-->
+    
+                        
+                    </div><!-- header social end-->
+                </div><!-- header right end-->
+            </div><!-- header end-->
+    
+            <hr class="firsthr">
+    
+            <!-- ===========================
+            BODY LEFT PART
+            ============================ -->
+            <div class="col-md-8 mainleft">
+                <div id="statement" class="row mobmid">
+                    <div class="col-sm-1">
+                        <span class="secicon fa fa-user"></span>
+                    </div><!--icon end-->
+    
+                    <div class="col-sm-11">
+                        <h3>Personal statement </h3>
+                        <p>Junior cyber security professional seeking entry-level cyber security opportunities. Recently completed MTech with specialization in Computer Networks and Information Security. I recently obtained a highly sought-after certification in cyber security, including an eight-month Google IT support program that covers troubleshooting, customer service, networking, operating systems, system administration, and security and includes hands-on labs and a Certified Ethical Hacker designation. 
+                            I stay updated on the latest trends in cyber security to keep my competitiveness and to provide better service. always willing to learn more.</p>
+                    </div><!--info end-->
+                </div><!--personal statement end-->
+    
+                <hr>
+    
+                <div id="education" class="row mobmid">
+                    <div class="col-sm-1">
+                        <span class="secicon fa fa-graduation-cap"></span>
+                    </div><!--icon end-->
+    
+                    <div class="col-sm-11">
+                        <h3>Education &amp; Certification</h3>
+
+    
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4>M.Tech COMP.Networks and INF.Security </h4>
+                                <p class="sub"><a href="">Jawaharlal Nehru Technological University Hyderabad</a>
+                                </p>
+                                <p>Attended for two years and graduated with a Master of Technology in Computer Networks and Information security. During my time here I volunteered as a peer advisor in the school of computing where I helped students on using the resources on offer in the university and solving any problems they may have encountered. This consisted of technical help as well as non technical. </p>
+                            </div>
+    
+                            <div class="year col-md-3">
+                                <p>2018-2020</p>
+                            </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4>Bachelor's degree in Information Systems </h4>
+                                <p class="sub"><a href="">Mekelle University Ethiopia</a>
+                                </p>
+                                <p>Attended for four years and graduated with a Bachelor's degree in Information Systems. During my time here i took courses like algorithm and data structure, Networking, database, and programming languages like java and C# I also participated in different volunteer programs . </p>
+                            
+                            </div>
+    
+                            <div class="year col-md-3">
+                                <p>2014-2017</p>
+                            </div>
+
+                        </div><!--Education & Certification 1 end-->
+                    </div>
+                </div><!--Education & Certifications end-->
+                </div><!--Education & Certifications end-->
+            
+             <hr>
+    
+                <!-- ===========================
+                JOB EXPERIENCES
+                ============================ -->
+                <div id="job" class="row mobmid">
+                    <div class="col-sm-1">
+                        <span class="secicon fa fa-briefcase"></span>
+                    </div><!--icon end-->
+    
+                    <div class="col-sm-11">
+                        <h3>Job Experience</h3>
+    
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4>Junior cybersecurity trainee</h4>
+                                <p class="sub"><a href="">Information Network security Agency</a>
+                                </p>
+                                <p>
+                                    <ul>
+                                        <li>Junior cybersecurity trainee</li>
+                                        <li>Monitoring And Maintaining Computer System AND Networks</li>
+                                        <li>Attend Teaching Sessions Organized within Their Training Setting</li>
+                                    </ul>
+                                </p>
+                            </div>
+    
+                            <div class="year col-md-3">
+                                <p>2017 - 2018</p>
+                            </div>
+                        </div><!--Job 1 end-->
+                        
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4>Intern</h4>
+                                <p class="sub"><a href="">Ethiopian Defence Force</a>
+                                </p>
+                                <p>
+                                    <ul>
+                                        <li>Internship</li>
+                                        <li>Installing, configuring, and troubleshooting Cisco routers and switches</li>
+                                        <li>Designed, implemented, and managed network security countermeasures including firewalls and 
+                                            intrusion detection/prevention systems (IDS/IPS)</li>
+                                        <li>Repairing hardware malfunctions, software issues, and networking problems.</li>
+                                        <li>Meeting with clients to diagnose software, networking, or hardware issues.</li>
+                                        <li>Responding to client IT support requests.</li>
+                                    </ul>
+                                </p>
+                            </div>
+    
+                            <div class="year col-md-3">
+                                <p>Jul 2016 - Sep 2016</p>
+                            </div>
+                        </div><!--Job 2 end-->
+                        
+                    </div><!--Job experiences end-->
+                </div><!--Job experiences end-->
+            </div><!--left end-->
+            
+            <!-- ===========================
+            SIDEBAR
+            =========================== -->
+            <div class="col-md-4 mainright">
+                <div class="row">
+                    <div class="col-sm-1 col-md-2 mobmid">
+                        <span class="secicon fa fa-magic"></span>
+                    </div><!--icon end-->
+    
+                    <div class="col-sm-11 col-md-10">
+                        <h3 class="mobmid">Technical skills </h3>
+
+                   
+    
+                        <p>Information Security</p>
+                        <div>
+
+                        <p>linux</p>
+                        <div>
+    
+                        <p>Python</p>
+                        <div>
+                         
+    
+                        <p>MCSA</p>
+                        <div>
+                            
+    
+                        <p>CSS (Bootstrap / SASS)</p>
+                        <div>
+                         
+                        <p>PHP</p>
+                        <div>
+                        
+    
+                        <p>HTML</p>
+                        <div>
+                        
+    
+                        <p>Git</p>
+                        <div>
+    
+                        <p>SQL</p>
+                        <div>
+    
+                        <p>cybersecurity</p>
+                        </div>
+                        </div>
+                        </div>
+                       
+                        <hr>
+                      
+            <div class="col-md-4 mainright">
+                <div class="row">
+                    <div class="col-sm-1 col-md-2 mobmid">
+                        <span class="secicon fa fa-magic"></span>
+                    </div><!--icon end-->
+
+                    <div class="col-sm-11 col-md-10">
+                        <h3 class="mobmid">Soft skills </h3>
+
+
+                        <p>Time Management</p>
+                        <div>
+
+                        <p>Team Working</p>
+                        <div>
+                         
+                         <p>Adaptability</p>
+                         <div>   
+
+                         <p>Communication/Active listening</p>
+                         </div>
+                         </div>
+                         </div>  
+
+                         <hr>
+                    </div>
+
+
+                        
+    
+        <!--necessary scripts and plugins-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/evenfly.js"></script>
+    </body>
+    
+    </html>
+
+
+
+

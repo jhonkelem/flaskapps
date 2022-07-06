@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yohannes Kelem Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+     <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+<!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">About</span>
+                            <span class="icon-bar">Resume</span>
+                            <span class="icon-bar">contact</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">About</a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume</a></li>
+                            <li><a href="{{ url_for('contact')  }}">Contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Yohannes Kelem Portfolio</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- contact section-->
+   
+    <section>
+        <!-- Contact Container -->
+        <div class="contact-container">
+             <!-- Form -->
+             <div class="form-container">
+                  <h3>Message Me</h3>
+                  <form action=""class="contact-form">
+                    <input type="text"placeholder="Your Name"required>
+                    <input type="email"name=""id=""placeholder="Enter Your Email ..."required>
+                    <textarea name=""id=""cols="30"rows="10"placeholder="Write Message Here..." required></textarea>
+                    <input type="submit" value="send" class="send-button">
+                  </form>
+             </div>
+             <!-- map -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38667.2979950614!2d6.434623947133224!3d52.71944928208981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c81a91610fbe03%3A0x5f4a259481cc9ae!2sHoogeveen!5e0!3m2!1sen!2snl!4v1657106075752!5m2!1sen!2snl"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<body>
+<div>
+    <br><br><br>
+</div>
+            
+                <div class="col-md-12 centered">
+                    <div>
+                           <a href="https://www.linkedin.com/in/yohannes-kelem" class="social_icons">
+                            <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://github.com/jhonkelem" class="social_icons">
+                            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://twitter.com/yohanneskelem" class="social_icons">
+                            <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+                          </a>
+                        
+                    </div>
+                    &copy: 2022 YK soft. All rights reserved
+                </div>
+
+</body>
+</html>

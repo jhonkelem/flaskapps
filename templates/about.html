@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yohannes Kelem Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+     <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">About</span>
+                            <span class="icon-bar">Resume</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">About</a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume</a></li>
+                            <li><a href="{{ url_for('contact')  }}">contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Yohannes Kelem Portfolio</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- about section-->
+
+<section class="header about-head">
+    <div>
+        <h2>About <span>Me</span></h2>
+        <p>Here is my story</p>
+    </div>
+</section>
+
+    <body>
+        <h3>Experience</h3>
+                <strong>Industry Dive</strong>
+                <p># Junior cyber security professional at Information Security and Network Agency as a graduate trainee here working and trained  on big cybersecurity Infrastructure</p>
+    
+                <p>Daily tasks include Training on latest technology , monitoring and maintainig system on the site and offsite that are available in the infrastructure , opening and fixing issues.</p>
+    
+                <p># Intern at ethiopian defence minstry here i have working on installing, configuring and, maintaining cisco sysytem products. daily tasks on giving IT support for users requests.</p>
+    
+        <h3>Education</h3>
+
+                <strong>Mekelle University Ethiopia</strong>
+                <p>Graduated with Bachelor of Information System. During my four years here I undertook a wide array of modules and exposure to many different programming languages including java, C++, C# </p>
+
+
+
+                <strong>Jawaharlal Nehru Technological University Hyderabad, India</strong>
+                <p>Graduated with a Master Of Technology in Computer Network and Information security. During my two years here I undertook a wide array of modules like cybersecurity, Network security, Cloud computing and exposure to many different programming languages including java and Android development </p>
+    
+                <p></p>
+    
+    </body>
+    
+    </html>
