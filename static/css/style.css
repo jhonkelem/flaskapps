@@ -92,7 +92,9 @@ li {
 }
 
 .award {
+    position: relative;
     padding-top: 20px;
+    left: 20px;
 }
 
 blockquote {
