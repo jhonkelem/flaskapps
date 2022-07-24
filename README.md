@@ -10,24 +10,14 @@ Instructions on installing Flask can be found here
 
 Clone the repo to your desktop somewhere
 
-Go to the base directory and run python app.py.
-This is now a website at jhonkelem.pythonanywhere.com
-Project Layout
-app.py
-The main python file for the project containing url routes
+Go to the base directory and run python app.py. This is now a website at jhonkelem.pythonanywhere.com Project Layout app.py The main python file for the project containing url routes
 
-/templates directory
-index.html
-Project homepage containing links to main social accounts (LinkedIn, GitHub, Twitter)
+/templates directory index.html Project homepage containing links to main social accounts (LinkedIn, GitHub, Twitter)
 
-about.html
-The about page
+about.html The about page
 
-contact.html
-The contact page and an email form
+contact.html The contact page and an email form
 
-resume.html
-The resume page, which is essentially an interactive resume
+resume.html The resume page, which is essentially an interactive resume
 
-/static directory
-Contains directories for css, images, imgs and js. Pretty intuitive with what contains what.
+/static directory Contains directories for css, images, imgs and js. Pretty intuitive with what contains what.
