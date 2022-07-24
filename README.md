@@ -5,10 +5,13 @@ Personal website built on Flask using bootstrap for CSS
 Environment Setup
 
 Make sure you have python and flask installed
+
 Instructions on installing Flask can be found here
+
 Clone the repo to your desktop somewhere
-Go to the base directory and run python main.py.
-This is now a website at localhost:5000
+
+Go to the base directory and run python app.py.
+This is now a website at jhonkelem.pythonanywhere.com
 Project Layout
 app.py
 The main python file for the project containing url routes
